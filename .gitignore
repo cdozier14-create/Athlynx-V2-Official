@@ -109,3 +109,4 @@ temp/
 # Local Netlify folder
 .netlify
 CHAD_MASTER_STATE.json
+.env.production
