@@ -274,16 +274,16 @@ export default function EarlyAccess() {
           <h2 className="text-white font-black text-xl text-center mb-4">THE COMPLETE ATHLETE ECOSYSTEM</h2>
           <div className="grid grid-cols-2 gap-3">
             {[
-              { name: "Portal", icon: "/apps/portal.png", badge: "LIVE" },
-              { name: "Messenger", icon: "/apps/messenger.png", badge: "LIVE" },
-              { name: "Diamond Grind", icon: "/apps/diamond-grind.png", badge: "NEW" },
-              { name: "Warriors Playbook", icon: "/apps/warriors-playbook.png", badge: "HOT" },
-              { name: "Transfer Portal", icon: "/apps/transfer-portal.png", badge: "ELITE" },
-              { name: "NIL Vault", icon: "/apps/nil-vault.png", badge: "$$$" },
-              { name: "AI Sales", icon: "/apps/ai-sales.png", badge: "AI" },
-              { name: "Faith", icon: "/apps/faith.png", badge: "BLESSED" },
-              { name: "AI Recruiter", icon: "/apps/ai-recruiter.png", badge: "AI" },
-              { name: "AI Content", icon: "/apps/ai-content.png", badge: "AI" },
+              { name: "Portal", icon: "/app-icons-v3/portal-exact.png", badge: "LIVE" },
+              { name: "Messenger", icon: "/app-icons-v3/messenger-exact.png", badge: "LIVE" },
+              { name: "Diamond Grind", icon: "/app-icons-v3/diamondgrind-exact.png", badge: "NEW" },
+              { name: "Warriors Playbook", icon: "/app-icons-v3/warriors-exact.png", badge: "HOT" },
+              { name: "Transfer Portal", icon: "/app-icons-v3/transfer-exact.png", badge: "ELITE" },
+              { name: "NIL Vault", icon: "/app-icons-v3/nilvault-exact.jpeg", badge: "$$$" },
+              { name: "AI Sales", icon: "/app-icons-v3/aisales-exact.jpeg", badge: "AI" },
+              { name: "Faith", icon: "/app-icons-v3/faith-exact.jpeg", badge: "BLESSED" },
+              { name: "AI Recruiter", icon: "/app-icons-v3/airecruiter-exact.jpeg", badge: "AI" },
+              { name: "AI Content", icon: "/app-icons-v3/aicontent-exact.jpeg", badge: "AI" },
             ].map((app, idx) => (
               <div key={idx} className="bg-slate-800 rounded-xl p-4 text-center border border-slate-700">
                 <img src={app.icon} alt={app.name} className="w-16 h-16 mx-auto mb-2" />
