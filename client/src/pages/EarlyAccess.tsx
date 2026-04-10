@@ -279,11 +279,11 @@ export default function EarlyAccess() {
               { name: "Diamond Grind", icon: "/app-icons-v3/diamondgrind-exact.png", badge: "NEW" },
               { name: "Warriors Playbook", icon: "/app-icons-v3/warriors-exact.png", badge: "HOT" },
               { name: "Transfer Portal", icon: "/app-icons-v3/transfer-exact.png", badge: "ELITE" },
-              { name: "NIL Vault", icon: "/app-icons-v3/nilvault-exact.jpeg", badge: "$$$" },
-              { name: "AI Sales", icon: "/app-icons-v3/aisales-exact.jpeg", badge: "AI" },
-              { name: "Faith", icon: "/app-icons-v3/faith-exact.jpeg", badge: "BLESSED" },
-              { name: "AI Recruiter", icon: "/app-icons-v3/airecruiter-exact.jpeg", badge: "AI" },
-              { name: "AI Content", icon: "/app-icons-v3/aicontent-exact.jpeg", badge: "AI" },
+              { name: "NIL Vault", icon: "/app-icons-v3/nilvault-exact.webp", badge: "$$$" },
+              { name: "AI Sales", icon: "/app-icons-v3/aisales-exact.webp", badge: "AI" },
+              { name: "Faith", icon: "/app-icons-v3/faith-exact.webp", badge: "BLESSED" },
+              { name: "AI Recruiter", icon: "/app-icons-v3/airecruiter-exact.webp", badge: "AI" },
+              { name: "AI Content", icon: "/app-icons-v3/aicontent-exact.webp", badge: "AI" },
             ].map((app, idx) => (
               <div key={idx} className="bg-slate-800 rounded-xl p-4 text-center border border-slate-700">
                 <img src={app.icon} alt={app.name} className="w-16 h-16 mx-auto mb-2" />
