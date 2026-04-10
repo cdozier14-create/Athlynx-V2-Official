@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "npm run build",
+  "buildCommand": "pnpm run build",
   "outputDirectory": "dist/public",
-  "installCommand": "npm install",
+  "installCommand": "pnpm install",
   "framework": null,
   "functions": {
     "api/index.ts": {
